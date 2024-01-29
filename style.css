@@ -1,0 +1,53 @@
+.sub-div{
+	
+	border: 1px solid white;
+	margin: 0.5rem auto;
+	border-radius: 0.5em;
+	background-image: linear-gradient(red, yellow); ;
+	width: 80vw;
+	box-shadow: 0.5vw 0.8vw dimgrey;
+	margin-bottom: 2vw;
+}
+
+.sub-div:hover{
+	transition: linear;
+	width:85vw;
+	transition-duration: 1000ms;
+	font-size: 1.2vw;
+}
+.author{
+	text-align: center;
+	font-size:1.5em;
+	color: firebrick;
+
+
+}
+
+.quote{
+	text-align: center;
+	font-size:1.5em;
+	color: white;
+
+}
+
+
+
+*{
+	font-family: sans-serif;
+}
+
+h1{
+	text-align: center;
+	background-image: linear-gradient(aqua,yellow);
+	width: 95vw;
+	border-radius: 1vw;
+	margin: 1px auto;
+	margin-bottom: 2vw;
+}
+
+h1:hover{
+	transition: linear;
+	width:85vw;
+	transition-duration: 1000ms;
+	font-size: 2.5vw;
+}
